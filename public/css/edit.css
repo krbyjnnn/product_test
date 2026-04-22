@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #000000;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+.edit-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.edit-tab {
+    background: #88e8b0;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+}
+
+.edit-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input, 
+.form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.btn-submit {
+    background-color: #88e8b0;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-submit:hover {
+    background-color: #218838;
+}
+
+a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
